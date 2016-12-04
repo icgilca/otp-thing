@@ -8,13 +8,13 @@ define('APP_THEME',				'gentelella');
 define('APP_NAME',				'Secure Area');
 
 // OTP Configuration
-define('OTP_COMPANY',	'ACME');	// company name
+define('OTP_COMPANY',	'IoT Mbed');	// company name
 define('OTP_MAX_TRIES',	3);			// maximum attempts before preventing use of the current timeblock
 define('OTP_LENGTH',	6);			// length of digits a code should be
 define('OTP_ALGORITHM',	'sha256');	// the hashing algorithm used (sha256, sha1, sha512)
 
 // session control
-define('SESSION_TIMEOUT',	30);	// how many minutes a logged in session should last
+define('SESSION_TIMEOUT',30);	// how many minutes a logged in session should last
 
 // user control. acl's between these values are granted control to modify
 // users that are lower acl. for example, a user with acl 9999 can modify
@@ -29,9 +29,9 @@ define('MAX_NOTIFICATIONS',	50);
 // Database Credentials used for user authentication
 define('SQL_SERVER',	'localhost');
 define('SQL_USERNAME',	'root');
-define('SQL_PASSWORD',	'');
-define('SQL_DATA',		'test');
-define('SQL_PREFIX',	'');
+define('SQL_PASSWORD',	'hq6k21');
+define('SQL_DATA',	'web_admin');
+define('SQL_PREFIX',	'iot');
 
 // Smarty
 define('SMARTY_DEBUGGING',	false);

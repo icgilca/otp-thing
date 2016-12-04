@@ -18,7 +18,7 @@ session::start();
 
 class session {
 
-	static $duration = 60 * SESSION_TIMEOUT;
+	static $duration = 1800;
 
 	public static function start() {
 		session_start();
